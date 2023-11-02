@@ -1,4 +1,4 @@
-# Lab 03 - NOT FINALIZED
+# Lab 03
 
 - [Lab Procedure](#Lab-Procedure)
 - [Part 1 - IO Redirection](#Part-1---IO-Redirection)
@@ -12,7 +12,7 @@
 
 ## Lab Procedure
 
-[Return to here and select "Start Lab"](https://awsacademy.instructure.com/courses/36184/modules/items/3080473)
+[Return to here and select "Start Lab"](https://awsacademy.instructure.com/courses/55805/modules/items/4889699)
 
 Use `ssh` to connect to your AWS Ubuntu instance.
 
@@ -32,7 +32,7 @@ If you did something "wrong" make a note of it in your lab. These are learning e
 
 ## Part 1 - IO Redirection
 
-This and the following parts are meant to be done in your AWS instance in your `Lab03` folder in your repo. You can still stick with the two terminal flow for fun, whatever is floating your boat.
+This and the following parts are meant to be done in your AWS instance in your `Lab03` folder in your repo. 
 
 - **Useful commands for this part: `man, vim, sort, <, >, >>`**
 
@@ -61,7 +61,7 @@ This and the following parts are meant to be done in your AWS instance in your `
 2.3
 ```
 
-2. Use the `sort` command to sort `input.txt`numerically.
+2. Use the `sort` command to sort `input.txt`numerically (smallest to largest numbers).
 3. Use the `sort` command to sort `input.txt` and direct the output to `output.txt`.
 
 - **Resources:**
@@ -124,8 +124,9 @@ In this part, your task is to read `~/.profile` and focus on the `if` statements
 5. Copy `sorting-party` into the folder. Write the command(s) used.
 
 6. Modify the permissions so that you can run your script on the command line from any location. Write the modifications needed.
+   - Note: if you already modified permissions, fill in this question with what you modified.
 
-7. In terms of user, group, and other, explain who is allowed to run the script.
+8. In terms of user, group, and other, explain who is allowed to run the script.
 
 ## Extra Credit - Colorize Me, Captain
 

@@ -1,4 +1,4 @@
-# Lab 04 - NOT FINALIZED
+# Lab 04
 
 - [Lab Procedure](#Lab-Procedure)
 - [regex resources](#regex-resources)
@@ -10,7 +10,7 @@
 
 ## Lab Procedure
 
-[Return to here and select "Start Lab"](https://awsacademy.instructure.com/courses/36184/modules/items/3080473)
+[Return to here and select "Start Lab"](https://awsacademy.instructure.com/courses/55805/modules/items/4889699)
 
 Use `ssh` to connect to your AWS Ubuntu instance.
 
@@ -48,7 +48,7 @@ grep [OPTIONS] PATTERN [FILE...]
 Create a file named `grepdata.txt` in your `Lab04` folder. Put the contents of [grepdata.txt](grepdata.txt) in the file. Use `grep` to complete the searches below. Only write the command that makes the required match. DO NOT paste the results.
 
 1. Print only lines that contain a phone number with an extension (the letter x or X followed by four digits).
-   - Your answer must use the \{ and \} repetition specifier.
+   - Your answer must use the `{` and `}` repetition specifier.
 2. Print only lines that contain CA in either uppercase or lowercase.
 3. Print only lines that contain an email address.
 4. Print only lines that contain a date after the year 2000.
