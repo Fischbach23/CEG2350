@@ -16,7 +16,7 @@
 
 ## Part 2 Answers
 
-1. `tcpdump` command:
+1. `tcpdump` command: sudo tcpdump
 
    - How many packets were captured? 2852 
    - Looking through the output, what traffic are you seeing? most is SSH related
@@ -36,9 +36,9 @@
 1. Command(s) to install `python3` and `pip3`: sudo apt install python3 | sudo apt install python3-pip
 2. Run web server with `index.html` contents in your folder: 
 3. Confirm content is being served:
-   - Using `localhost`:
-   - Using the system's private IP:
-   - Using the system's public IP:
-4. What's playing?
-5. Command to show `LISTEN`ing processes:
-6. Command to `kill`:
+   - Using `localhost`: 127.0.0.1
+   - Using the system's private IP: 10.0.0.25
+   - Using the system's public IP: 3.212.42.61
+4. What's playing? Rick Astley - Never Gonna Give You Up (Official Music Video)
+5. Command to show `LISTEN`ing processes: lsof -i -P -n
+6. Command to `kill`: kill 3973
