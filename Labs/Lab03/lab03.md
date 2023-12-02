@@ -6,15 +6,19 @@
 ## Part 1 Answers
 
 1. Verify here that input.txt made it to GitHub in your `Lab03` folder
-2.
-3.
+2. sort -n input.txt
+3. sort input.txt > output.txt
 
 ## Script Usage Guide
 
-1. How to run
-2. What extensions are expected
-3. What is the output
-
+1. How to run:
+   touch sorting-party
+   vim sorting-party
+   chmod +x sorting-party
+   ./sorting-party sorting-party
+3. What extensions are expected: any valid file names should work
+4. What is the output: sorted.txt
+   
 ## Part 5 Answers
 
 1. PATH =
