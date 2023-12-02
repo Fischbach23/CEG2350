@@ -44,20 +44,25 @@ sudo chmod -R g+rwx /home/ubuntu/DirA
 
 For each, write the command used or answer the question posed.
 
-1. sudo vim /home/ubuntu/sudowho.txt
+1. sudo touch sudowho.txt
 2. read and write for the owner and read only for the group and others
-3. 
+3. sudo vim sudowho.txt
 
 ## Part 5 Answers
 
-1. `ssh` command before configuring `config` file: ssh ubuntu@52.22.97.213 -i key.txt
-2. HostName: 
-3. User:
-4. IdentityFile:
+1. `ssh` command before configuring `config` file: ssh -i 2350key.pem ubuntu@34.206.47.39
+2. HostName: 34.206.47.39
+3. User: ubuntu
+4. IdentityFile: ~/2350key.pem
 5. `~/.ssh/config` contents:
+ 
 
 ```
-Paste your config file entry here
+  Host 2350ceg
+        HostName 34.206.47.39
+        User ubuntu
+        Port 22
+        IdentityFile ~/2350key.pem
 ```
 
-6. `ssh` command after configuring `config` file:
+6. `ssh` command after configuring `config` file: ssh 2350ceg
