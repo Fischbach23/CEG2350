@@ -50,8 +50,8 @@ For each, write the command used or answer the question posed.
 
 ## Part 5 Answers
 
-1. `ssh` command before configuring `config` file:
-2. HostName:
+1. `ssh` command before configuring `config` file: ssh ubuntu@52.22.97.213 -i key.txt
+2. HostName: 
 3. User:
 4. IdentityFile:
 5. `~/.ssh/config` contents:
