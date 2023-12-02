@@ -1,0 +1,16 @@
+    echo "File '$filename' does not exist."
+    echo "Usage: $0 <filename>"
+    exit 1
+    exit 1
+# Check if the correct number of arguments is provided
+# Check if the file exists
+# Sort the contents of the file and output to sorted.txt
+# Store the filename provided as an argument
+#!/bin/bash
+echo "Sorting completed. Output saved to sorted.txt."
+fi
+fi
+filename="$1"
+if [ ! -f "$filename" ]; then
+if [ "$#" -ne 1 ]; then
+sort "$filename" > sorted.txt
