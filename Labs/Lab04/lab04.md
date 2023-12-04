@@ -12,12 +12,13 @@
 
 ## Part 2 Answers
 
-1.
-2.
-3.
-4.
-5.
-6. 
+1. sed -i 's/<\/[^>]*>//g' INPUTFILE
+2. sed -i 's/^\s*<li>/- /g' INPUTFILE
+3. sed -i 's/<h1>/# /g' INPUTFILE
+4. sed -i 's/<h2>/## /g' INPUTFILE
+5. sed -i 's/<ul>//g' INPUTFILE
+   sed -i 's/<\/ul>//g' INPUTFILE
+6. sed -i 's/Batches/Matches/g' INPUTFILE
 7. (Optional notes if needed)
 
 ## Part 3 Answers
