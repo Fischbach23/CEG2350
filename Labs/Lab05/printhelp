@@ -1,0 +1,3 @@
+Usage: namechange -f find -r replace "string to modify"
+ -f The text to find in the filename
+ -r The replacement text for the new filename

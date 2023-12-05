@@ -1,1 +1,61 @@
-namechange -f find -r replace filename
+#!/bin/bash
+
+##read in the input from the user
+input1=$2
+input=$1
+input2=$3
+input3=$4
+input4=$5
+input6=$6
+input5=$2
+
+
+
+##Method for help command
+printHelp() {
+    
+    echo "Usage: Sample: namechange -f find -r replace string-to-modify"
+    echo "  -f The text to find in the filename"
+    echo "  -r The replacement text for the new filename"
+}
+##Finds and replaces the file with the necessary parts
+findFile() {
+
+    output=$(echo "$input4" | sed -E "s,"$input5","$input3",g")
+
+    ##Outprint the output
+    echo "$output"
+
+}    
+##Get opts for -h -f -r and any other that is not valid
+while getopts ":hf" opt; do
+    case $opt in
+    h)
+        ##Prints the help guide
+        printHelp
+        exit
+        ;;
+
+    r)    
+        ##replaces the file
+        findFile
+        exit
+        ;;
+    
+    f)    
+        ##finds the file
+        findFile
+        exit
+        ;;
+
+    \?)
+        #3prints out if something was an invalid command
+        echo "Invalid option: -$OPTARG" >&2
+        ;;
+
+    :)    
+        ##if no command is entered
+        echo "User must provide string for find and string for replace"
+        ;;
+    esac
+done
