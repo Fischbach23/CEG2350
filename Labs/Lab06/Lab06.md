@@ -25,10 +25,10 @@
     - Remaining space on primary partition: 34.01
     - Filesystem on primary partition: NTFS (BitLocker Encrypted)
 6. BIOS / UEFI info: 
-    - BIOS or UEFI version: 
-    - How to access your BIOS / UEFI:
-7. Bootloader running on your system: 
-8. Kernel version of your operating system:
+    - BIOS or UEFI version: F.24
+    - How to access your BIOS / UEFI: while restarting - press the escape key then press F10
+7. Bootloader running on your system: Windows Boot Manager
+8. Kernel version of your operating system: 4.4.0-22621-Microsoft
 
 ## Extra Credit - VM Manager
 
