@@ -9,9 +9,9 @@
     - Linux distribution: 
     - URL to download it
 2. Virtual Machine configurations:
-    - RAM -
-    - CPU - 
-    - Disk size - 
+    - RAM - 5 Gb
+    - CPU - 6 Cores
+    - Disk size - 10GB
 
 ![Screenshot of Summary](relative_path_to_image_filename_here)
 
