@@ -34,7 +34,7 @@
     - Restarting the VM: click start 
 7. Proof of your VM running your Guest OS:
 
-![Screenshot with name in file]("C:\Users\30bla\OneDrive\Pictures\Screenshots\Screenshot 2023-12-08 210727.png")
+![Screenshot with name in file]("![Screenshot 2023-12-08 210727](https://github.com/Fischbach23/CEG2350/assets/89490140/eec7eda3-092a-4e9f-bcf6-108307d8ebfe)")
 
 
 ## Part 2 Answers
