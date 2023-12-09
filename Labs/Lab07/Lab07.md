@@ -6,14 +6,15 @@
 ## Part 1 Answers
 
 1. Download an ISO:
-    - Linux distribution: 
-    - URL to download it
+    - Linux distribution: linux-version other(64-bit)
+    - URL to download it: https://ubuntu.com/download/desktop
 2. Virtual Machine configurations:
     - RAM - 5 Gb
     - CPU - 6 Cores
     - Disk size - 10GB
 
-![Screenshot of Summary](relative_path_to_image_filename_here)
+![Screenshot of Summary](![image](https://github.com/Fischbach23/CEG2350/assets/89490140/7590900a-c646-447a-b2f1-fc8c67968f4d)
+
 
 3. Install Guest OS:
     - Start installation:
