@@ -39,6 +39,6 @@
 
 ## Part 2 Answers
 
-1. How to change your desktop background in your VM:
-2. How to install VSCode in your VM:
-3. How to connect to your AWS instance from your VM using `ssh`:
+1. How to change your desktop background in your VM: I clicked in the top right corner of my Vm, went to settings, background and then picked one of the options.
+2. How to install VSCode in your VM: I went to the ubuntu app store and installed VsCode through it.
+3. How to connect to your AWS instance from your VM using `ssh`: I went to aws academy and downloaded the pem file, copied the contents and pasted it in a file called ceg2350-key.pem, I then used the command ssh -i ceg2350-key.pem ubuntu@3.212.42.61 to ssh into my aws instance.
